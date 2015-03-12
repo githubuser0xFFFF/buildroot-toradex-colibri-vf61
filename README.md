@@ -1,2 +1,4 @@
-# buildroot-toradex-colibri-vf61
-External buildroot packages for Toradex Colibri VF61
+# External buildroot packages for Toradex Colibri VF61
+Unfortunately Toradex only supports Open Embedded for building a Linux root filesystem. For systems that require a great number of components or that require more advanced functionality, such as managing a package repository and supporting multiple hardware platforms at once for example, Open Embedded is the right choice an a powerful tool. But if you only want to build a filesystem image with only a few components, for a deeply embedded device (i.e. a CANopen motion controller, a temperature controller, a simple I/O node) Buildroot remains much more appropriate. Buildroot is so much easier to use than Open Embedded. Therefore, it is really a disadvantage that Toradex only supports Open Embedded.
+
+With the help of this repository you can use Buildroot to build a complete root filesystem for the Toradex Colibri VF61 board. 
